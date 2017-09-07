@@ -134,6 +134,12 @@ img {
   width: 625px;
 }
 
+article a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #033048;
+}
+
 hr {
   margin: 40px;
 }
@@ -186,6 +192,7 @@ hr {
   text-decoration: none;
   color: #033048;
 }
+
 
 footer {
   color: white;
