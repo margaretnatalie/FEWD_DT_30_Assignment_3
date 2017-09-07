@@ -111,14 +111,17 @@ nav li a {
   margin: 10px 40px;
 }
 
-
+p span { 
+  padding-top: 0px;
+  float: left;
+  font-size: 80px;
+  line-height: 60px;
+}
 
 article h1 {
   font-size: 40px;
   font-weight: 700;
   width: 90%;
-
-
 }
 
 article p {
@@ -126,13 +129,62 @@ article p {
   font-weight: 200;
   text-align: justify;
 }
-#nav_2 {
+
+img {
+  width: 625px;
+}
+
+hr {
+  margin: 40px;
+}
+
+.nav_2 {
   width: 240px;
-  float: right;
+  float: left;
+  color: #033048;
+  display: block;
 
 }
-img {
-  width: 675px;
+
+.nav_2 h3 {
+  font-size: 32px;
+  margin: 0 auto;
+  font-weight: 900;
+  margin: 50px 0px 0px 0px;
+}
+
+.nav_2 ul {
+  font-size: 24px;
+  padding: 0;
+}
+
+.nav_2 a{
+  color: #033048;
+  margin: 0;
+  padding: 0;
+}
+
+#miniabout {
+  width: 240px ;
+  float: right;
+}
+
+#miniabout h3 {
+  font-size: 32px;
+  margin: 0 auto;
+  font-weight: 900;
+  margin: 50px 0px 0px 0px;
+}
+
+#miniabout p {
+  font-size: 22px;
+}
+
+#miniabout a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
 }
 
 footer {
